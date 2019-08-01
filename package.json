@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-sagas",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "config",
+    "eslint-config",
+    "chinese",
+    "中文"
+  ],
+  "author": "SagaciousLittle",
+  "license": "ISC"
+}
