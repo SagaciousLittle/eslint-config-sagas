@@ -101,13 +101,6 @@ module.exports = {
     'rest-spread-spacing': ['error', 'never'],
     // 尽量不带分号
     semi: ['error', 'never'],
-    // import排序
-    'sort-imports': ['error', {
-      ignoreCase: false,
-      ignoreDeclarationSort: false,
-      ignoreMemberSort: false,
-      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-    }],
     // 变量排序
     'sort-vars': ['error', { ignoreCase: true }],
     // 语句块之前的空格

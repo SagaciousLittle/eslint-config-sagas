@@ -3,5 +3,12 @@
   "rules": {
     // 对象属性按序排列
     "sort-keys": ["error", "asc"],
+    // import排序
+    "sort-imports": ["error", {
+      "ignoreCase": false,
+      "ignoreDeclarationSort": false,
+      "ignoreMemberSort": false,
+      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
+    }],
   },
 }
