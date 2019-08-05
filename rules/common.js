@@ -108,8 +108,6 @@ module.exports = {
       ignoreMemberSort: false,
       memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
     }],
-    // 对象属性按序排列
-    'sort-keys': ['error', 'asc'],
     // 变量排序
     'sort-vars': ['error', { ignoreCase: true }],
     // 语句块之前的空格

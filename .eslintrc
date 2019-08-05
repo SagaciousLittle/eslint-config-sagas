@@ -1,4 +1,7 @@
 {
   "extends": "./index.js",
-  "rules": {}
+  "rules": {
+    // 对象属性按序排列
+    "sort-keys": ["error", "asc"],
+  },
 }
