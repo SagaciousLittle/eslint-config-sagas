@@ -56,8 +56,6 @@ module.exports = {
     'lines-around-comment': ['error', {
       beforeBlockComment: true,
     }],
-    // 禁止使用连续的行注释来表示块注释。另外，要求块注释的每行之前有一个 *
-    'multiline-comment-style': ['error', 'starred-block'],
     // 方法链中的每个调用之后或或深度成员访问之后有一个换行符
     'newline-per-chained-call': ['error', { ignoreChainWithDepth: 1 }],
     // 禁止在可能与比较操作符相混淆的地方使用箭头函数
